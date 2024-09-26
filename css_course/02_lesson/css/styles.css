@@ -1,0 +1,53 @@
+/* Universal selector */
+* {
+  font-family: monospace; 
+  /* border: 1px solid red;  */
+}
+
+/* Element selectors */
+
+html {
+    font-size: 22px;
+}
+body {
+    /* font-size: 22px; */
+    /* border: 3px solid black; */
+}
+
+/* main {
+    font-weight: bold;
+} */
+
+
+/* grouping selectors with a comma */
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple!important; /*killer tip/trick to beat overriding */
+}
+
+/* Nested selectors */
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+
+
+/* Class selector: overrule element selector, more reusable */
+
+.gray {
+  color: gray;  
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* id selectors: only exist once, should be used rarely */
+#second {
+    font-style: italic;
+}

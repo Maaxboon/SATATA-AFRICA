@@ -47,6 +47,8 @@ body {
 
 .h1 {
   font-size: 500%;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .example {

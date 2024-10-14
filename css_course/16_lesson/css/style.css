@@ -28,6 +28,8 @@ img {
 body {
   font-family: cursive, sans-serif;
   min-height: 100vh;
+  background-color: aliceblue;
+  background-image: linear-gradient(steelblue, #fff);
 }
 
 .container {

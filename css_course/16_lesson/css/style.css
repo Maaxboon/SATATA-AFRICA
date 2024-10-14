@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: cursive, sans-serif;
   min-height: 100vh;

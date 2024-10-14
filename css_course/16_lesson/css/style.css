@@ -39,9 +39,10 @@ body {
   gap: 30px;
 
   background-color: rgb(251, 210, 156);
-  background-image: url("/img/pat2-transparency.png");
+  background-image: url("/img/scenic-2200x1331.png");
   color: #fff;
   background-repeat: repeat;
+  background-size: cover;
 }
 
 .h1 {

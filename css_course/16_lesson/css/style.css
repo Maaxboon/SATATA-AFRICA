@@ -7,6 +7,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: cursive, sans-serif;
+  min-height: 100vh;
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+/* .h1 {
+  font-size: 500%;
+} */
+
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
 img {
   display: block;
 }
@@ -20,17 +44,6 @@ img {
   min-width: 100px;
   border: 5px double gray;
   border-radius: 50%;
-}
-
-body {
-  font-family: cursive, sans-serif;
-  min-height: 100vh;
-}
-
-.example {
-  margin-top: 1rem;
-  padding-left: 20px;
-  border: 1px solid red;
 }
 
 .example img {

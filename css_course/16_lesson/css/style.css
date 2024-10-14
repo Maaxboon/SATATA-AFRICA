@@ -49,6 +49,9 @@ body {
   font-size: 500%;
   color: aliceblue;
   text-shadow: 2px 2px 5px #000;
+  background-color: hsla(0, 0%, 0%, 0.648);
+  padding: 0.25rem;
+  border-radius: 10px;
 }
 
 .example {

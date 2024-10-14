@@ -7,6 +7,24 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+/* End Utility Classes */
+
 body {
   font-family: cursive, sans-serif;
   min-height: 100vh;
@@ -21,18 +39,14 @@ body {
   gap: 30px;
 }
 
-/* .h1 {
+.h1 {
   font-size: 500%;
-} */
+}
 
 .example {
   margin-top: 1rem;
   padding-left: 20px;
   border: 1px solid red;
-}
-
-img {
-  display: block;
 }
 
 .profile-pic-figure {

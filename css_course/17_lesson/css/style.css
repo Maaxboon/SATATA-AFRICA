@@ -12,3 +12,7 @@ body {
   font: 1.5rem "Nunito", sans-serif;
   min-height: 100vh;
 }
+
+@media screen and (min-width: breakpoint) {
+  // css rules
+}

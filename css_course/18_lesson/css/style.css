@@ -13,6 +13,11 @@ img {
   height: auto;
 }
 
+/* || UTILITY CLASSES */
+.nowrap {
+  white-space: nowrap;
+}
+
 /* || GENERAL STYLES */
 body {
   font: 1.5rem "Nunito", sans-serif;

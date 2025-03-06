@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
 }
+
+.header-container {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

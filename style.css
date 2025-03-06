@@ -15,3 +15,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.brand-logo-container {
+  width: fit-content;
+  height: auto;
+}
